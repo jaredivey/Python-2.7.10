@@ -985,44 +985,6 @@ LIBSUBDIRS=	lib-tk lib-tk/test lib-tk/test/test_tkinter \
 		netaddr netaddr/eui netaddr/ip netaddr/strategy netaddr/tools \
 		oslo_config routes webob \
 		repoze repoze/lru \
-		ryu ryu/bin ryu/debian ryu/debian/source ryu/etc ryu/etc/ryu ryu/tools ryu/tools/pyang_plugins \
-		ryu/ryu ryu/ryu/app ryu/ryu/app/ofctl \
-		ryu/ryu/base ryu/ryu/cmd ryu/ryu/contrib ryu/ryu/contrib/ncclient \
-		ryu/ryu/contrib/ncclient/operations ryu/ryu/contrib/ncclient/transport \
-		ryu/ryu/contrib/ovs ryu/ryu/contrib/ovs/db ryu/ryu/contrib/ovs/unixctl \
-		ryu/ryu/contrib/tinyrpc ryu/ryu/contrib/tinyrpc/dispatch \
-		ryu/ryu/contrib/tinyrpc/protocols ryu/ryu/contrib/tinyrpc/server \
-		ryu/ryu/contrib/tinyrpc/transports ryu/ryu/controller \
-		ryu/ryu/lib ryu/ryu/lib/netconf ryu/ryu/lib/of_config ryu/ryu/lib/ovs \
-		ryu/ryu/lib/packet ryu/ryu/lib/xflow ryu/ryu/ofproto \
-		ryu/ryu/services/ ryu/ryu/services/protocols ryu/ryu/services/protocols/bgp \
-		ryu/ryu/services/protocols/bgp/api ryu/ryu/services/protocols/bgp/core_managers \
-		ryu/ryu/services/protocols/bgp/info_base ryu/ryu/services/protocols/operator \
-		ryu/ryu/services/protocols/bgp/operator/commands \
-		ryu/ryu/services/protocols/bgp/operator/commands/show \
-		ryu/ryu/services/protocols/bgp/operator/views \
-		ryu/ryu/services/protocols/bgp/rtconf ryu/ryu/services/protocols/bgp/signals \
-		ryu/ryu/services/protocols/bgp/utils ryu/ryu/services/protocols/ovsdb \
-		ryu/ryu/services/protocols/vrrp ryu/ryu/tests \
-		ryu/ryu/tests/bin ryu/ryu/tests/integrated ryu/ryu/tests/mininet \
-		ryu/ryu/tests/mininet/l2 ryu/ryu/tests/mininet/l2/mpls ryu/ryu/tests/mininet/l2/vlan \
-		ryu/ryu/tests/mininet/l3 ryu/ryu/tests/mininet/l3/icmp ryu/ryu/tests/mininet/l3/ip_ttl \
-		ryu/ryu/tests/mininet/packet_lib ryu/ryu/tests/mininet/packet_lib/arp \
-		ryu/ryu/tests/packet_data ryu/ryu/tests/packet_data/bgp4 ryu/ryu/tests/packet_data/of10 \
-		ryu/ryu/tests/packet_data/of12 ryu/ryu/tests/packet_data/of13 ryu/ryu/tests/packet_data/of14 \
-		ryu/ryu/tests/packet_data/of15 ryu/ryu/tests/switch ryu/ryu/tests/switch/of13 \
-		ryu/ryu/tests/switch/of13/action ryu/ryu/tests/switch/of13/action/25_SET_FIELD \
-		ryu/ryu/tests/switch/of13/group ryu/ryu/tests/switch/of13/match ryu/ryu/tests/switch/of13/meter \
-		ryu/ryu/tests/switch/of14 \
-		ryu/ryu/tests/switch/of14/action ryu/ryu/tests/switch/of14/action/25_SET_FIELD \
-		ryu/ryu/tests/switch/of14/group ryu/ryu/tests/switch/of14/match ryu/ryu/tests/switch/of14/meter \
-		ryu/ryu/tests/unit ryu/ryu/tests/unit/app ryu/ryu/tests/unit/cmd ryu/ryu/tests/unit/controller \
-		ryu/ryu/tests/unit/lib ryu/ryu/tests/unit/lib/test_mod ryu/ryu/tests/unit/lib/test_mod/fuga \
-		ryu/ryu/tests/unit/lib/test_mod/hoge ryu/ryu/tests/unit/ofproto ryu/ryu/tests/unit/ofproto/json \
-		ryu/ryu/tests/unit/ofproto/json/of10 ryu/ryu/tests/unit/ofproto/json/of12 \
-		ryu/ryu/tests/unit/ofproto/json/of13 \
-		ryu/ryu/tests/unit/ofproto/json/of14 ryu/ryu/tests/unit/ofproto/json/of15 \
-		ryu/ryu/tests/unit/packet ryu/ryu/tests/unit/sample ryu/ryu/topology \
 		unittest unittest/test \
 		lib-old \
 		curses pydoc_data $(MACHDEPS)
