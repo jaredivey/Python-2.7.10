@@ -493,8 +493,8 @@ def _get_config_dirs(project=None):
       /etc/
     """
     cfg_dirs = [
-        _fixpath(os.path.join('~', '.' + project)) if project else None,
-        _fixpath('~'),
+     #   _fixpath(os.path.join('~', '.' + project)) if project else None,
+     #   _fixpath('~'),
         os.path.join('/etc', project) if project else None,
         '/etc'
     ]
